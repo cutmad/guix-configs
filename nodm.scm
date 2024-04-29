@@ -2,13 +2,13 @@
 ;; for a "desktop" setup without full-blown desktop
 ;; environments.
 
-(use-modules (gnu) (nongnu packages linux) (gnu system nss))
+(use-modules (gnu)  (gnu system nss)) ;(nongnu packages linux)
 (use-service-modules desktop)
 (use-package-modules bootloaders terminals  xdisorg certs emacs image-viewers emacs-xyz wm xorg)
 
 (operating-system
-  (kernel linux)
-  (firmware (list linux-firmware))
+  ;(kernel linux)
+  ;(firmware (list linux-firmware))
   (host-name "guix-machine")
   (timezone "Europe/Moscow")
   (locale "en_US.utf8")
