@@ -86,9 +86,8 @@
   (services (cons* (service pam-limits-service-type
 		(list
 			(pam-limits-entry "*" 'both 'nofile 524288)))
-		(service gnome-desktop-service-type)
-%desktop-services))
-
+	                  (modify-services   %desktop-services
+          (delete gdm-service-type))))                
   ;; Allow resolution of '.local' host names with mDNS.
   (name-service-switch %mdns-host-lookup-nss))
 
