@@ -54,7 +54,7 @@
   ;; the log-in screen with F1.
   (packages (append (list
                      ;; window managers
-                     sway waybar swaybg swaynotificationcenter wofi  swaylock
+                     sway waybar swaybg swaynotificationcenter wofi swayidle swaylock
                      ;; terminal emulator
                      kitty alacritty foot
 		     ;;fonts
