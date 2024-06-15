@@ -57,7 +57,7 @@
                      sway waybar swaybg swaynotificationcenter wofi swayidle swaylock
                      ;; terminal emulator
                      kitty alacritty foot
-		     ;;fonts
+		     ;;fonts ill move them to home later
                      font-adobe-source-code-pro font-adobe-source-han-sans 
                      font-adobe-source-sans-pro font-adobe-source-serif-pro
 		     font-anonymous-pro font-anonymous-pro-minus font-awesome
