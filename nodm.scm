@@ -3,7 +3,7 @@
 ;; environments.
 
 (use-modules (gnu)  (gnu system nss)) ;(nongnu packages linux)
-(use-service-modules desktop)
+(use-service-modules desktop xorg linux admin )
 (use-package-modules bootloaders terminals  xdisorg certs emacs image-viewers emacs-xyz wm xorg)
 
 (operating-system
