@@ -59,8 +59,20 @@
 
 
   (packages (append (list
-                     ;; window managersщ
-                     sway swaybg  waybar foot swaylock  emacs wofi)
+                     bluez                        
+		      bluez-alsa
+                      blueman
+		      fuse
+		     wget
+		     emacs-no-x-toolkit           
+		     exfat-utils                  
+		     fuse-exfat                   
+		     git                          
+		     gvfs    ;; Enable user mounts
+		     libva-utils                  
+		     ntfs-3g                      
+		     stow                         
+		     vim )
                     %base-packages))
 
   ;; Use the "desktop" services, which include the X11
