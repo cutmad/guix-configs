@@ -62,6 +62,7 @@
 		      bluez-alsa
                       blueman
 		      fuse
+		     wget
 		     emacs-no-x-toolkit           
 		     exfat-utils                  
 		     fuse-exfat                   
