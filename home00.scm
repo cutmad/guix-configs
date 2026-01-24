@@ -75,7 +75,6 @@
          xdg-desktop-portal                   
          xdg-desktop-portal-hyprland          
          xdg-desktop-portal-gtk
-         xdg-desktop-portal-kde
          xdg-utils                            
          xdg-dbus-proxy                       
                                               
