@@ -143,8 +143,8 @@
       ;;lock-screen
       (service screen-locker-service-type
                (screen-locker-configuration
-                (name "hyprlock")
-                (program (file-append "/bin/hyprlock"))
+                (name "swaylock")
+                (program (file-append swaylock "/bin/swaylock"))
                 (using-pam? #t)
                 (using-setuid? #f)))
       ;;bluetooth
