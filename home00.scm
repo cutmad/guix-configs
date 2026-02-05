@@ -56,7 +56,8 @@
   (list
          ;; Wayland / Hyprland stack          
          hyprland                             
-         hyprpaper                            
+         hyprpaper 
+   	     swaylock
          waybar                               
          hypridle                             
          hyprlock                             
