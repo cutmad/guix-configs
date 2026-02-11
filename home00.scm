@@ -217,8 +217,10 @@
            (simple-service 'some-useful-env-vars-service
                            home-environment-variables-service-type
                            '(("XDG_DATA_DIRS" . "$XDG_DATA_DIRS:$HOME/.local/share/flatpak/exports/share")))
-           (service home-dbus-service-type)
-           (service home-pipewire-service-type)))))
+           (simple-service 'custom-dbus-services home-dbus-service-type (map specification->package
+                               (list "xdg-desktop-portal-hyprland" "xdg-desktop-portal" "blueman")))
+
+                 (service home-pipewire-service-type)))))
 
 
 
