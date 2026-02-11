@@ -214,6 +214,8 @@
 
        (services (append
           (list
+
+		    (service home-dbus-service-type)
            (simple-service 'some-useful-env-vars-service
                            home-environment-variables-service-type
                            '(("XDG_DATA_DIRS" . "$XDG_DATA_DIRS:$HOME/.local/share/flatpak/exports/share")))
